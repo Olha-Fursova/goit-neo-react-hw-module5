@@ -1,0 +1,43 @@
+.movies-search-container {
+  flex-direction: column;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 24px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.form-input {
+  background-color: #bdbcbb;
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  font-weight: 400;
+  padding: 4px;
+  width: 180px;
+  height: 30px;
+  color: #212121;
+}
+
+.form-input::placeholder {
+  color: #787878;
+}
+
+.form-btn {
+  border: 1px solid #bdbcbb;
+  color: #bdbcbb;
+  padding: 6px;
+  height: 30px;
+}
+
+.form-btn:focus,
+.form-btn:hover {
+  color: #e6c86e;
+  border-color: #e6c86e;
+}

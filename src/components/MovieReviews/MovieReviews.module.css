@@ -1,0 +1,35 @@
+.reviews-list {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 24px;
+}
+
+.reviews-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid #424242;
+}
+
+.reviews-username {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  color: #e6c86e;
+}
+
+.reviews-content {
+  width: 100%;
+  height: 100px;
+
+  overflow-y: auto;
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+}
